@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  font-weight: bold;
+  user-select: none;
+  transition: 5s;
+  animation: txtAnimation 1.3s linear infinite alternate;
+}
+
+.txt {
+  background-image: url(https://images.unsplash.com/photo-1526161955674-92d767589833?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3JmdWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-position: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.sml {
+  display: inline-block;
+  transform: rotateX(0deg);
+  transform-origin: 13.51px 17.51px;
+  transition: 0.6s;
+}
+
+h1:hover .sml {
+  transform: rotateX(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+@keyframes txtAnimation {
+  0% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
