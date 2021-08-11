@@ -1,0 +1,10 @@
+{
+  "name": "ewka",
+  "version": "1.0.0",
+  "description": "^_^",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GB",
+  "license": "ISC"
+}
