@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +7,6 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   title = 'awesome';
-
-  constructor() {}
 
   method(): void {
     if (confirm('This will hack your PC, proceed?') === true) {
