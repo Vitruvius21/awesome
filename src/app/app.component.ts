@@ -12,7 +12,7 @@ export class AppComponent {
 
   method(): void {
     if (confirm('This will hack your PC, proceed?') === true) {
-      window.location.href = 'https://twitter.com/so_ewesome';
+      window.location.href = '#';
     } else {
       alert('I was kidding :D');
     }
